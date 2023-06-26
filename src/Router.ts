@@ -1,5 +1,5 @@
 import * as tools from './tools';
-import { PageWelcome } from './pages/PageWelcome';
+import { PageWelcome, attachPageWelcomeEvents } from './pages/PageWelcome';
 import { PageInfo } from './pages/PageInfo';
 import { PageAbout } from './pages/PageAbout';
 import { Page404 } from './pages/Page404';
@@ -50,4 +50,8 @@ function getSmartCurrentPageId() {
 	let currentPageIdCode = tools.getCurrentPageIdCode();
 	currentPageIdCode = currentPageIdCode === '' ? tools.cleanCharactersToAscii(pageNames[0].toLowerCase()) : currentPageIdCode;
 	return currentPageIdCode;
+}
+
+export const attachEvents = () => {
+	attachPageWelcomeEvents();
 }
