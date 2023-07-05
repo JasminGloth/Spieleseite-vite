@@ -1,6 +1,9 @@
 import schiffe from "../data/schiffe.json";
 import waffen from "../data/waffen.json";
 
+
+// test comment from Edward
+
 export const PageWelcome = () => {
   return /*html*/ `
 <div class="page pageWelcome">
