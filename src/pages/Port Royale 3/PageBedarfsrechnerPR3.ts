@@ -39,7 +39,7 @@ export const PageBedarfsrechnerPR3 = () => {
 						<td class="bdrholz">0</td>
             <td class="pr3profitholz">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/AjFjve2.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Metallwaren.png" alt="" id="hover-image">
                 <span class="hover-text">Metallwaren</span>
               </div></td>
 						<td class="bdrwerkzeug">0</td>
@@ -47,13 +47,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/aRInELe.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Ziegel.png" alt="" id="hover-image">
                 <span class="hover-text">Ziegel</span>
               </div></td>
 						<td class="bdrziegel">0</td>
             <td class="pr3profitziegel">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/B0QZrsL.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Farbstoffe.png" alt="" id="hover-image">
                 <span class="hover-text">Farbstoffe</span>
               </div></td>
 						<td class="bdrfärbemittel">0</td>
@@ -63,13 +63,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/9neEi7X.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Weizen.png" alt="" id="hover-image">
                 <span class="hover-text">Weizen</span>
               </div></td>
 						<td class="bdrweizen">0</td>
             <td class="pr3profitweizen">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/eVqGGt2.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Kaffee.png" alt="" id="hover-image">
                 <span class="hover-text">Kaffee</span>
               </div></td>
 						<td class="bdrkaffee">0</td>
@@ -77,13 +77,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/Yhx5h5r.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Früchte.png" alt="" id="hover-image">
                 <span class="hover-text">Früchte</span>
               </div></td>
 						<td class="bdrfrüchte">0</td>
             <td class="pr3profitfrüchte">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/r35Y3Mn.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Kakao.png" alt="" id="hover-image">
                 <span class="hover-text">Kakao</span>
               </div></td>
 						<td class="bdrkakao">0</td>
@@ -93,13 +93,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/KTU1y0t.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Mais.png" alt="" id="hover-image">
                 <span class="hover-text">Mais</span>
               </div></td>
 						<td class="bdrmais">0</td>
             <td class="pr3profitmais">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/giwYvJj.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Tabak.png" alt="" id="hover-image">
                 <span class="hover-text">Tabak</span>
               </div></td>
 						<td class="bdrtabak">0</td>
@@ -107,13 +107,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/qqGFKmp.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Zucker.png" alt="" id="hover-image">
                 <span class="hover-text">Zucker</span>
               </div></td>
 						<td class="bdrzucker">0</td>
             <td class="pr3profitzucker">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/2eUggBd.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Fleisch.png" alt="" id="hover-image">
                 <span class="hover-text">Fleisch</span>
               </div></td>
 						<td class="bdrfleisch">0</td>
@@ -121,13 +121,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/4awiS4z.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Hanf.png" alt="" id="hover-image">
                 <span class="hover-text">Hanf</span>
               </div></td>
 						<td class="bdrhanf">0</td>
             <td class="pr3profithanf">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/Kk9Ujb4.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Kleidung.png" alt="" id="hover-image">
                 <span class="hover-text">Kleidung</span>
               </div></td>
 						<td class="bdrkleidung">0</td>
@@ -135,13 +135,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/hCPgNeA.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Tuch.png" alt="" id="hover-image">
                 <span class="hover-text">Tuch</span>
               </div></td>
 						<td class="bdrtuch">0</td>
             <td class="pr3profittuch">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/0xCyb8b.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Seil.png" alt="" id="hover-image">
                 <span class="hover-text">Seil</span>
               </div></td>
 						<td class="bdrseil">0</td>
@@ -149,13 +149,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/rjfAPnA.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Metall.png" alt="" id="hover-image">
                 <span class="hover-text">Metall</span>
               </div></td>
 						<td class="bdrmetall">0</td>
             <td class="pr3profitmetall">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/geg8N5P.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Rum.png" alt="" id="hover-image">
                 <span class="hover-text">Rum</span>
               </div></td>
 						<td class="bdrrum">0</td>
@@ -163,13 +163,13 @@ export const PageBedarfsrechnerPR3 = () => {
 					</tr>
 					<tr>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/UrPmGOG.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Baumwolle.png" alt="" id="hover-image">
                 <span class="hover-text">Baumwolle</span>
               </div></td>
 						<td class="bdrbaumwolle">0</td>
             <td class="pr3profitbaumwolle">0</td>
 						<td><div class="image-container">
-                <img src="https://i.imgur.com/9OaQKTZ.png" alt="" id="hover-image">
+                <img src="img/PR3/PR3Backwaren.png" alt="" id="hover-image">
                 <span class="hover-text">Backwaren</span>
               </div></td>
 						<td class="bdrbackwaren">0</td>
