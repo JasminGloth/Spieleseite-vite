@@ -259,5 +259,41 @@ body {
         opacity: 1;
       }
     }
+    .PageSchiffePR3 {
+      color: #87cefa;
+      font-size: 1.3rem;
+      .image-container {
+        position: relative;
+        display: inline-block;
+        border: silver solid 3px;
+                margin: 0.5rem;
+      }
+
+      figcaption {
+        font-size: 30px;
+        padding-bottom: 0.5em;
+        line-height: 1.2em;
+        text-align: center;
+
+      }
+
+      .hover-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .image-container:hover img {
+        opacity: 0;
+        background-color: beige;
+      }
+
+      .image-container:hover .hover-text {
+        opacity: 1;
+      }
+    }
   }
 }

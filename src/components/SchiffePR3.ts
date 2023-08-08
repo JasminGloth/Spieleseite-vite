@@ -4,14 +4,32 @@ export const SchiffePR3 = () => {
     let tableHtml="";
 
     for(const schiffeItem of schiffe){
-        tableHtml += `<tr>
-                        <td>${schiffeItem.name}</td>
-                        <td><img src="${schiffeItem.bild}" alt=""></td>
-                        <td>${schiffeItem.laderaum}</td>
-                        <td>${schiffeItem.knoten}</td>
-                        <td>${schiffeItem.kaufpreis}</td>
-                        <td>${schiffeItem.täglichekosten}</td>
-                    </tr>
+        tableHtml += `
+        <figure class="image-container">
+        <figcaption>${schiffeItem.name}</figcaption>
+                <img src="${schiffeItem.bild}" alt="">
+                
+                <table class="hover-text">
+                    <tbody>
+                        <tr>
+                            <td>Laderaum</td>
+                            <td>${schiffeItem.laderaum}</td>
+                        </tr>
+                        <tr>
+                            <td>Knoten</td>
+                            <td>${schiffeItem.knoten}</td>
+                        </tr>
+                        <tr>
+                            <td>Kaufpreis</td>
+                            <td>${schiffeItem.kaufpreis}</td>
+                        </tr>
+                        <tr>
+                            <td>Tägliche Kosten</td>
+                            <td>${schiffeItem.täglichekosten}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
                         `;
     }
 
@@ -19,22 +37,7 @@ export const SchiffePR3 = () => {
     <div>
         <h2>Schiffe</h2>
         <section>
-            <table>
-                <thead>
-                    <tr>
-                        <td>Name</td>
-                        <td>Bild</td>
-                        <td>Laderaum</td>
-                        <td>Knoten</td>
-                        <td>Kaufpreis</td>
-                        <td>Tägliche Kosten</td>
-                    </tr>
-                    
-                </thead>
-                <tbody>
-                    ${tableHtml}
-                </tbody>
-            </table>
+            ${tableHtml}
         </section>
     </div>
     `;
