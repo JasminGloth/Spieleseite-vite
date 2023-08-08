@@ -108,7 +108,7 @@ export const PageBedarfsrechnerP4 = () => {
                         <tr>
                             <td>
                               <div class="image-container">
-                                <img src="img/P4/.Wollepng" alt="" id="hover-image">
+                                <img src="img/P4/Wolle.png" alt="" id="hover-image">
                                 <span class="hover-text">Wolle</span>
                               </div>
                             </td>
