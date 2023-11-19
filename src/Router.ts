@@ -12,9 +12,10 @@ import { Page404 } from "./pages/Page404";
 import { PageBedarfsrechnerP4, attachPageBedarfsrechnerP4Events, } from "./pages/Patrizier 4/PageBedarfsrechnerP4";
 import { PagePreislistePR3 } from "./pages/Port Royale 3/PagePreislistePR3";
 import { PageSchiffePR3 } from "./pages/Port Royale 3/PageSchiffePR3";
+import { PagePreislisteP4 } from "./pages/Patrizier 4/PagePreislisteP4";
 
 const PR3pageNames = ["Preisliste (PR3)","Bedarfsrechner (PR3)", "Kampf (PR3)","Schiffe (PR3)", "About (PR3)"];
-const P4pageNames = ["Bedarfsrechner (P4)"];
+const P4pageNames = ["Preisliste (P4)","Bedarfsrechner (P4)"];
 
 const currentPageIdCode = getSmartCurrentPageId();
 
@@ -32,6 +33,8 @@ export const getCurrentPage = () => {
       return PageAboutPR3();
     case "bedarfsrechner(p4)":
       return PageBedarfsrechnerP4();
+    case "preisliste(p4)":
+      return PagePreislisteP4();
     default:
       return Page404();
   }
